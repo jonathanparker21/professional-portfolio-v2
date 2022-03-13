@@ -130,11 +130,15 @@ section {
   text-align: center;
 }
 
+.portfolio {
+    display: flex
+}
+
 .portfolio__img {
   transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
   box-shadow: var(--bs);
-  max-height: 30%;
-  max-width: 30%;
+  max-height: 80%;
+  max-width: 80%;
 }
 
 .portfolio__img:hover {
